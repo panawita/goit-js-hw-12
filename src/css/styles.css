@@ -79,13 +79,12 @@ body {
 }
 
 .gallery {
-  padding-left: 156px;
-  padding-right: 156px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 70px;
 }
 
 .gallery-item {
@@ -121,4 +120,16 @@ body {
 }
 .image-info p {
   font-weight: bold;
+}
+
+.load-more.btn {
+  margin: auto;
+}
+
+.load-more.btn:disabled {
+  color: #989898;
+  background: #cfcfcf;
+  border-color: #cfcfcf;
+  cursor: not-allowed;
+  pointer-events: none;
 }
